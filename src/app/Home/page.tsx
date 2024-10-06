@@ -2,19 +2,22 @@
 import React from 'react'
 import {useRouter} from 'next/navigation'
 
-
 const Home = () => {
-    const route = useRouter()
-
+  const route = useRouter()
   return (
-    <div>Home 
+    <div> Home
 
-        <br/>
+      <br/>
 
-        <button onClick={()=>route.push('/')}> Go To Page</button>
-
+      <button onClick={()=>route.push('/')}> Go To Page </button>
     </div>
   )
 }
 
 export default Home
+
+
+
+
+
+

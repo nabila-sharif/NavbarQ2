@@ -2,7 +2,7 @@
 import React from 'react'
 import {useRouter} from 'next/navigation'
 
-const Contact = () => {
+const contact = () => {
     const route = useRouter()
   return (
    <div> Contact
@@ -15,4 +15,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default contact

@@ -1,8 +1,8 @@
-'use client'
+"use client"
 import React from 'react'
 import {useRouter} from 'next/navigation'
 
-const contact = () => {
+const Contact = () => {
     const route = useRouter()
   return (
    <div> Contact
@@ -15,4 +15,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact
